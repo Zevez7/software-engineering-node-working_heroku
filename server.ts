@@ -29,5 +29,5 @@ const bookmarkController = BookmarkController.getInstance(app);
 const messageController = MessageController.getInstance(app);
 const likesController = LikeController.getInstance(app);
 
-const PORT = 4000;
+const PORT = 5000;
 app.listen(process.env.PORT || PORT);
